@@ -1,0 +1,24 @@
+<view class="container">
+	<camera device-position="back" flass="off" class="my-camera">
+		<cover-view class="scan-window"></cover-view>
+	</camera>
+
+	<view class="info-box">
+		<view class="lable">当前识别车牌：</view>
+		<view class="plate-number">{{licensePlate}}</view>
+		<view class="status-hint">{{statusText}}</view>
+	</view>
+
+	<view class="button-group">
+		<button class="btn identify-btn" type="primary" bindtap="startWork">
+		开始识别并录制
+		</button>
+		<button class="btn stop-btn" type="warn" bindtap="stopWork">
+		停止并自动归档
+		</button>
+	</view>
+
+	<view class="footer">
+		<text>归档路径：手机内存/Wechat/Video/...</text>
+	</view>
+</view>

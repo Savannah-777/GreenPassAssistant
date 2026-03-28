@@ -1,0 +1,54 @@
+.container{
+	display:block;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #f7f3f3;
+	padding-top: 0rpx;
+}
+
+.my-camera{
+	width: 100%;
+	height: 40%;
+	top:0;
+  margin-top: 120rpx;
+}
+
+.scan-window{
+	width: 80%;
+	height: 150rpx;
+	border: 5rpx solid #07c160;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10rpx;
+}
+
+.info-box{
+	padding: 100rpx;
+	background: white;
+	text-align: center;
+}
+
+.lable{
+	margin-top: 0;
+	margin-bottom: 2s0rpx;
+}
+.plate-number{
+	font-size: 60rpx;
+	font-weight: bold;
+	color: #07c160;
+	margin: 10rpx 0 auto;
+}
+.button-group{
+	padding:30rpx;
+}
+.btn{
+	margin-bottom: 30rpx;
+	border-radius: 50rpx;
+}
+.footer{
+	font-size: 24rpx;
+	color:#999;
+	text-align: center;
+}

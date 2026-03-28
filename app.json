@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "绿通查验"
+  },
+  "permission": {
+    "scope.camera": {
+      "desc": "识别车牌"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
